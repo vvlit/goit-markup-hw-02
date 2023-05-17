@@ -11,6 +11,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--slate);
+  background-color: var(--white);
 }
 
 .list {
@@ -65,12 +67,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
 }
 
 /* ------------------HEADER------------------- */
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif; 
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -96,7 +97,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  font-style: normal
 }
 .header-address-link:hover,
 .header-address-link:focus {
@@ -123,16 +124,31 @@ body {
 
 /* ------------------WEDOING--------------------- */
 
+/* -----------------OUR TEAM--------------------- */
+
+.team {
+  background-color: var(--cloud);
+}
+.team-item {
+  background-color: var(--white);
+}
 /* -----------------PORTFOLIO-------------------- */
 
-.portfolio-btn{
+.portfolio-btn {
     color: var(--iris);
     background-color: var(--cloud);
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--white);
 }
 /* --------------------FOOTER-------------------- */
 .footer {
   background-color: var(--navy-blue);
 }
 .footer-text {
+  color: var(--cloud);
+}
+.logo-footer-part {
   color: var(--cloud);
 }
